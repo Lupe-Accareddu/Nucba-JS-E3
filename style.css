@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+  background-color: #892121;
+  background-image: url(pizzaback.jpg);
+}
+
+  .pizza-btn{
+    background-color: #892121;
+    border: 2px solid #E3B040;
+    box-shadow: 0 0 2px 2px #E3B040;
+    border-radius: 15%;
+    padding: 0.5rem;
+    margin: 1rem;
+  }
+
+
+  .pizza-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .pizza-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.3);
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    width: 350px;
+    height: 600px;
+    border-radius: 3rem;
+    position: relative;
+    border: 2px solid #E3B040;
+    box-shadow: 0 0 2px 2px #E3B040;
+  }
+
+ 
+ h2{
+    color: #892121;
+    font-size: 2rem;
+    font-weight: 900;
+ }
+
+ h4{
+    color: #E3B040;
+    font-size: 1rem;
+    font-weight: 600;
+ }
+
+ a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #E3B040;
+    font-weight: 600;
+ }
+
+ .texto-pizza{
+  height: 8rem;
+ }
