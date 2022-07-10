@@ -17,6 +17,9 @@ body{
     border-radius: 15%;
     padding: 0.5rem;
     margin: 1rem;
+    text-transform: uppercase;
+    color: #E3B040;
+    font-weight: 600;
   }
 
 
@@ -55,13 +58,6 @@ body{
  h4{
     color: #E3B040;
     font-size: 1rem;
-    font-weight: 600;
- }
-
- a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #E3B040;
     font-weight: 600;
  }
 
